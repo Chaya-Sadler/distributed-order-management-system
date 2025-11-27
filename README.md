@@ -33,7 +33,7 @@ order.inventory.events
 
 Java 17+
 
-Spring Boot, Spring Security, Spring JPA, Spring REST
+Spring Boot, Spring Security, Spring JPA, Spring REST, Spring Cloud
 
 Kafka messaging
 
@@ -42,3 +42,5 @@ PostgreSQL
 Docker Compose
 
 JWT Authentication
+
+Junit 5
