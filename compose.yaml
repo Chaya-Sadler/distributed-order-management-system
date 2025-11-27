@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=cs_ps_ms'
+      - 'POSTGRES_PASSWORD=training'
+      - 'POSTGRES_USER=cs_ps_ms'
+    ports:
+      - "63921:5432"
